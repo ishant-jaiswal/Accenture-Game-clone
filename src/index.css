@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.bg-accenture {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.text-accenture {
+  color: #764ba2;
+}
+.btn-accenture {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}

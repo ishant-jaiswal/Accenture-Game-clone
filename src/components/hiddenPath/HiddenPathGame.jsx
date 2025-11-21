@@ -46,7 +46,7 @@ function getGridSizeForLevel(index) {
 // Generate a guaranteed path and initial puzzle by random-rotating solved layout
 function generateSolvedGrid(rows, cols) {
   const start = { r: 0, c: 0 };
-  const end = { r: 0, c: cols - 1 };
+  const end = { r: rows - 1, c: cols - 1 };
 
   const visited = Array.from({ length: rows }, () => Array(cols).fill(false));
   const path = [];

@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom"
 
 import BalloonHome from "./components/balloonHome/BalloonHome"
 import BalloonGame from "./components/balloonHome/BalloonGame"
-import HiddenPathHome from "./components/hiddenPath/hiddenPathHome"
+import HiddenPathHome from "./components/hiddenPath/HiddenPathHome"
 import HiddenPathGame from "./components/hiddenPath/HiddenPathGame"
 import MemoryMatrixHome from "./components/MemoryMatrix/MemoryMatrixHome"
 import  MemoryMatrixGame  from "./components/MemoryMatrix/MemoryMatrixGame"
